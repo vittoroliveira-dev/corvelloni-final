@@ -1,0 +1,119 @@
+@layer components {
+    .c-faq-inline__list {
+        display: grid;
+        gap: var(--spacing-sm);
+    }
+
+    .c-faq-inline__item {
+        border-radius: var(--radius-md);
+        border: 1px solid color-mix(in srgb, var(--color-primary-500) 18%, transparent);
+        background: var(--color-neutral-000);
+        box-shadow: var(--shadow-sm);
+        overflow: hidden;
+    }
+
+    .c-faq-inline__summary {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--spacing-sm);
+        padding: var(--spacing-md);
+        font-weight: 600;
+        font-size: var(--font-size-200);
+        color: var(--color-neutral-900);
+    }
+
+    .c-faq-inline__summary::after {
+        content: "";
+        font-size: 1.25rem;
+        transition: transform var(--transition-duration-medium) var(--transition-ease);
+    }
+
+    .c-faq-inline__item[open] .c-faq-inline__summary::after {
+        transform: rotate(45deg);
+    }
+
+    /* aplica apenas ao summary, não ao details */
+    .c-faq-inline__item>summary.c-faq-inline__summary {
+        list-style: none;
+        cursor: pointer;
+        font-weight: 700;
+        padding: var(--spacing-md) var(--spacing-xl) var(--spacing-sm) var(--spacing-md);
+        position: relative;
+    }
+
+    .c-faq-inline__item>summary.c-faq-inline__summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .c-faq-inline__item>summary.c-faq-inline__summary::after {
+        content: "▾";
+        position: absolute;
+        inset-inline-end: var(--spacing-md);
+        inset-block-start: var(--spacing-md);
+        transition: transform var(--transition-duration-medium) var(--transition-ease);
+    }
+
+    .c-faq-inline__item[open]>summary.c-faq-inline__summary::after {
+        transform: rotate(180deg);
+    }
+
+    .c-faq-inline__summary:focus-visible {
+        outline: 3px solid color-mix(in srgb, var(--color-focus, var(--color-primary-500)) 60%, transparent);
+        outline-offset: 4px;
+    }
+
+    .c-faq-inline__content {
+        padding-inline: var(--spacing-md);
+        padding-block-end: var(--spacing-md);
+        color: var(--color-neutral-600);
+        font-size: var(--font-size-100);
+    }
+
+    .c-faq-inline__content p {
+        margin: 0;
+    }
+
+    @layer components {
+        .c-faq-inline__header {
+            display: grid;
+            gap: var(--spacing-sm);
+            justify-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .c-faq-inline__header {
+                grid-template-columns: 1fr auto;
+                align-items: end;
+            }
+
+            .c-faq-inline__cta {
+                margin: 0;
+            }
+        }
+
+        .c-faq-inline__cta {
+            margin-block-start: var(--spacing-xs);
+        }
+
+        .c-faq-inline__list {
+            display: grid;
+            gap: var(--spacing-sm);
+        }
+
+        .c-faq-inline__summary {
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .c-faq-inline__more {
+            margin-block: var(--spacing-xs) 0;
+        }
+
+        .c-faq-inline__more a::after {
+            content: " →";
+        }
+    }
+
+}

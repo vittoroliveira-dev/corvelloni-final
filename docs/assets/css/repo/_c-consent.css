@@ -1,0 +1,123 @@
+@layer components {
+  .c-consent {
+    position: fixed;
+    inset-inline: var(--spacing-sm);
+    bottom: var(--spacing-sm);
+    z-index: var(--z-toast);
+    width: min(32rem, calc(100% - (var(--spacing-sm) * 2)));
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    background: var(--color-neutral-000);
+    color: var(--color-neutral-900);
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    transform: translateY(1rem);
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity var(--transition-duration-medium) var(--transition-ease),
+      transform var(--transition-duration-medium) var(--transition-ease),
+      visibility var(--transition-duration-medium) var(--transition-ease);
+  }
+
+  .c-consent.is-open {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .c-consent[hidden] {
+    display: none;
+  }
+
+  .c-consent__content {
+    display: grid;
+    gap: var(--spacing-sm);
+  }
+
+  .c-consent__title {
+    font-size: var(--font-size-200);
+    margin: 0;
+    color: var(--color-neutral-900);
+  }
+
+  .c-consent__text {
+    margin: 0;
+    color: var(--color-neutral-700);
+    line-height: var(--line-height-base);
+  }
+
+  .c-consent__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+  }
+
+  .c-consent__button {
+    flex: 1 1 45%;
+    min-width: 8rem;
+    border: 1px solid color-mix(in srgb, var(--color-neutral-200) 60%, transparent);
+    border-radius: var(--radius-full);
+    padding: 0.65rem 1.25rem;
+    font-size: var(--font-size-100);
+    font-weight: 600;
+    background: transparent;
+    color: var(--color-neutral-900);
+    cursor: pointer;
+    transition: background var(--transition-duration-fast) var(--transition-ease),
+      color var(--transition-duration-fast) var(--transition-ease),
+      border-color var(--transition-duration-fast) var(--transition-ease);
+  }
+
+  .c-consent__button:hover,
+  .c-consent__button:focus-visible {
+    border-color: color-mix(in srgb, var(--color-neutral-400) 55%, transparent);
+    background: color-mix(in srgb, var(--color-neutral-050) 80%, transparent);
+  }
+
+  .c-consent__button--primary {
+    background: var(--color-primary-600);
+    color: var(--color-neutral-000);
+    border-color: transparent;
+  }
+
+  .c-consent__button--primary:hover,
+  .c-consent__button--primary:focus-visible {
+    background: var(--color-primary-500);
+  }
+
+  .c-consent__manage-link {
+    background: none;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    color: var(--color-neutral-000);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .c-consent {
+      transition-duration: 0ms;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .c-consent {
+      inset-inline: auto;
+      right: var(--spacing-md);
+    }
+
+    .c-consent__content {
+      gap: var(--spacing-md);
+    }
+
+    .c-consent__actions {
+      justify-content: flex-end;
+    }
+
+    .c-consent__button {
+      flex: 0 1 auto;
+    }
+  }
+}

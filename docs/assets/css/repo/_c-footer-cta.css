@@ -1,0 +1,11 @@
+@layer components {
+  .c-footer-cta {
+    justify-content: center;
+  }
+
+  .c-footer-cta .o-container {
+    display: flex;
+    justify-content: center;
+  }
+
+}

@@ -1,0 +1,86 @@
+@layer components {
+  .c-team {
+    display: grid;
+    gap: var(--spacing-md);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  .c-team__item {
+    display: grid;
+    gap: var(--spacing-sm);
+    padding: clamp(var(--spacing-sm), 2vw, var(--spacing-md));
+    border-radius: var(--radius-lg);
+    background: linear-gradient(160deg,
+        color-mix(in srgb, var(--color-primary-050) 75%, var(--color-neutral-000)) 0%,
+        var(--color-neutral-000) 60%);
+    border: 1px solid color-mix(in srgb, var(--color-primary-500) 10%, transparent);
+    box-shadow: 0 16px 30px rgba(17, 24, 39, 0.08);
+    transition: transform var(--transition-duration-medium) var(--transition-ease),
+      box-shadow var(--transition-duration-medium) var(--transition-ease);
+  }
+
+  .c-team__item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 48px rgba(17, 24, 39, 0.12);
+  }
+
+  .c-team__photo {
+    position: relative;
+    aspect-ratio: 3 / 4;
+    border-radius: var(--radius-lg);
+    background: radial-gradient(circle at 30% 20%,
+        color-mix(in srgb, var(--color-primary-500) 25%, transparent),
+        color-mix(in srgb, var(--color-primary-050) 85%, var(--color-neutral-000)));
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  .c-team__photo::after {
+    content: "";
+    position: absolute;
+    inset: 12%;
+    border-radius: inherit;
+    border: 1px dashed color-mix(in srgb, var(--color-primary-500) 25%, transparent);
+    opacity: 0.45;
+  }
+
+  .c-team__meta {
+    display: grid;
+    gap: .25rem;
+  }
+
+  .c-team__name {
+    font-size: var(--font-size-200);
+    color: var(--color-neutral-900);
+    margin: 0;
+  }
+
+  .c-team__role {
+    font-size: var(--font-size-100);
+    color: var(--color-primary-600);
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .c-team__details {
+    color: var(--color-neutral-600);
+    font-size: var(--font-size-100);
+    margin: 0;
+  }
+
+  .c-team__item:hover,
+.c-cases__item:hover,
+.c-steps__item:focus-within {
+  will-change: transform, box-shadow;
+}
+
+  @media (prefers-reduced-motion: reduce) {
+
+    .c-team__item,
+    .c-team__item:hover {
+      transition: none;
+      transform: none;
+      box-shadow: 0 16px 30px rgba(17, 24, 39, 0.08);
+    }
+  }
+}
