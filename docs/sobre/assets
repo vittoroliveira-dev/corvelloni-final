@@ -7,7 +7,7 @@
     <meta name="robots" content="index,follow">
 
     <!-- Preload crítico -->
-    <link rel="preload" as="image" href="../assets/hero-Cn4lmx2D.svg" fetchpriority="high">
+    <link rel="preload" as="image" href="/corvelloni-final/assets/hero-Cn4lmx2D.svg" fetchpriority="high">
 
     <title>Sobre Nós | Corvelloni Contabilidade - Consultoria Contábil em Adamantina SP</title>
     <meta name="description"
@@ -22,7 +22,7 @@
         content="Equipe especializada com MBA em Gestão Tributária. Atendimento humano e tecnologia para 600+ empresas no interior paulista." />
     <meta property="og:url" content="https://www.corvelloni.com.br/sobre/" />
     <meta property="og:site_name" content="Corvelloni Contabilidade" />
-    <meta property="og:image" content="https://www.corvelloni.com.br/assets/img/social-share.jpg" />
+    <meta property="og:image" content="/corvelloni-final/assets/img/social-share.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Equipe Corvelloni Contabilidade - Escritório em Adamantina SP" />
@@ -32,17 +32,17 @@
     <meta name="twitter:title" content="Sobre a Corvelloni Contabilidade" />
     <meta name="twitter:description"
         content="Contabilidade consultiva com 98% de satisfação. Conheça nossa história e equipe especializada." />
-    <meta name="twitter:image" content="https://www.corvelloni.com.br/assets/img/social-share.jpg" />
+    <meta name="twitter:image" content="/corvelloni-final/assets/img/social-share.jpg" />
 
     <!-- Favicons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon-BkZQMrrD.png" />
-    <link rel="manifest" href="../assets/site-CkdoKGYk.webmanifest" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/corvelloni-final/assets/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/corvelloni-final/assets/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/corvelloni-final/assets/apple-touch-icon-BkZQMrrD.png" />
+    <link rel="manifest" href="/corvelloni-final/assets/site-CkdoKGYk.webmanifest" />
     <meta name="theme-color" content="#111827" />
     <meta name="format-detection" content="telephone=no">
-  <script type="module" crossorigin src="../assets/app-Cbi3Chmv.js"></script>
-  <link rel="stylesheet" crossorigin href="../assets/app-DhaJQBAa.css">
+  <script type="module" crossorigin src="/corvelloni-final/assets/app-Cbi3Chmv.js"></script>
+  <link rel="stylesheet" crossorigin href="/corvelloni-final/assets/app-DhaJQBAa.css">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
 
     <header class="c-header">
         <div class="o-container c-header__inner">
-            <a class="c-header__logo" href="/" aria-label="Corvelloni Contabilidade - Página inicial">
+            <a class="c-header__logo" href="/corvelloni-final/assets/" aria-label="Corvelloni Contabilidade - Página inicial">
                 <img src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+PHRpdGxlPkNvcnZlbGxvbmkgQ29udGFiaWxpZGFkZTwvdGl0bGU+PHN0eWxlPi5icmFuZC1wcmltYXJ5IHsgZmlsbDogI0I3MzIzOTsgfQogICAgLmJyYW5kLWRhcmsgeyBmaWxsOiAjMDAwOyB9CiAgICB0ZXh0IHsgZm9udC1mYW1pbHk6ICJNb250c2VycmF0IiwgIkRlamFWdSBTYW5zIiwgQXJpYWwsIHNhbnMtc2VyaWY7IH08L3N0eWxlPjx0ZXh0IGNsYXNzPSJicmFuZC1kYXJrIiB4PSI1MTIiIHk9IjYzNC44OCIgZm9udC1zaXplPSI5Ny4zcHgiIGZvbnQtd2VpZ2h0PSI3MDAiIGxldHRlci1zcGFjaW5nPSI0LjYwOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q09SVkVMTE9OSTwvdGV4dD48dGV4dCBjbGFzcz0iYnJhbmQtcHJpbWFyeSIgeD0iNTEyIiB5PSI3MjcuMjgwMDMiIGZvbnQtc2l6ZT0iNjEuNHB4IiBmb250LXdlaWdodD0iNjAwIiBsZXR0ZXItc3BhY2luZz0iNC42MDgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNPTlRBQklMSURBREU8L3RleHQ+PHBhdGggZD0ibTQ2Ni43IDUzMi41YzAtLjU0MzIuNDQ0NC0uOTg3Ni45ODc2LS45ODc2LjU0MzIgMCAuOTg3Ny40NDQ0Ljk4NzcuOTg3NnMtLjQ0NDQuOTg3Ni0uOTg3Ny45ODc2Yy0uNTQzMiAwLS45ODc2LS40NDQ0LS45ODc2LS45ODc2em0tMjIuOTQtNC44ODljLTEzMS4zLTM0LjQyLTE3Mi45LTIwNC44LTcyLjgyLTI5Ny45IDExMC41LTEwMi44IDI4OS41LTMxLjc4IDMwMC4zIDExOS4xIDEuNTg5IDIyLjM1Ljc0OTcgMjMuMzktMy45ODkgNC45MzgtMjkuMDEtMTEyLjktMTUyLjktMTU5LjEtMjQ0LjItOTEuMTEtOTAuMTIgNjcuMTYtNzQuNzUgMjA2LjEgMjguOTEgMjYxLjQgMTUuMjkgOC4xNTQgMTMuMDYgOS4xMzMtOC4xMjUgMy41Nzh6bS0zMi45OS04MS4zMWMtMTMuMTQtMTkuODQtMTguMDMtMzYuOTgtMTcuOTYtNjIuOTNsLjA1OTctMjAuNzQgNS4yNTQtMTUuMThjNDEuMTMtMTE4LjkgMjIxLjUtMTA1LjMgMjM1LjcgMTcuNzRsMS4wNjggOS4yOTktNy40OTMtMTMuN2MtNjguMTYtMTI0LjYtMjUzLjUtNDkuMS0yMTAuMyA4NS43MiA1LjMgMTYuNTQgNC44MTcgMTYuNTItNi4yNTQtLjE5M3oiIGZpbGw9IiNjNzQwNTAiLz48bWV0YWRhdGE+PHJkZjpSREY+PGNjOldvcmsgcmRmOmFib3V0PSIiPjxkYzp0aXRsZT5Db3J2ZWxsb25pIENvbnRhYmlsaWRhZGU8L2RjOnRpdGxlPjwvY2M6V29yaz48L3JkZjpSREY+PC9tZXRhZGF0YT48L3N2Zz4K" alt="Corvelloni Contabilidade" width="140" height="40"
                     loading="eager" />
             </a>
@@ -69,9 +69,9 @@
 
             <nav id="menu-principal" class="c-nav" aria-label="Menu principal">
                 <ul class="c-nav__list">
-                    <li><a class="c-nav__link" href="/">Início</a></li>
-                    <li><a class="c-nav__link" href="/simples-nacional/">Simples Nacional</a></li>
-                    <li><a class="c-nav__link" href="/duvidas/">Dúvidas</a></li>
+                    <li><a class="c-nav__link" href="/corvelloni-final/assets/">Início</a></li>
+                    <li><a class="c-nav__link" href="/corvelloni-final/assets/simples-nacional/">Simples Nacional</a></li>
+                    <li><a class="c-nav__link" href="/corvelloni-final/assets/duvidas/">Dúvidas</a></li>
 
                     <li class="c-nav__item--has-dropdown">
                         <button id="btn-calculadoras" class="c-nav__link" type="button" aria-haspopup="true"
@@ -84,11 +84,11 @@
                             </svg>
                         </button>
                         <ul id="submenu-calculadoras" class="c-nav__submenu">
-                            <li><a class="c-nav__submenu-link" href="/calc/custo-abrir-cnpj/">Custo para Abrir CNPJ</a>
+                            <li><a class="c-nav__submenu-link" href="/corvelloni-final/assets/calc/custo-abrir-cnpj/">Custo para Abrir CNPJ</a>
                             </li>
-                            <li><a class="c-nav__submenu-link" href="/calc/salario-liquido/">Salário Líquido</a></li>
-                            <li><a class="c-nav__submenu-link" href="/calc/clt-vs-pj/">CLT vs PJ</a></li>
-                            <li><a class="c-nav__submenu-link" href="/calc/fator-r/">Fator R</a></li>
+                            <li><a class="c-nav__submenu-link" href="/corvelloni-final/assets/calc/salario-liquido/">Salário Líquido</a></li>
+                            <li><a class="c-nav__submenu-link" href="/corvelloni-final/assets/calc/clt-vs-pj/">CLT vs PJ</a></li>
+                            <li><a class="c-nav__submenu-link" href="/corvelloni-final/assets/calc/fator-r/">Fator R</a></li>
                         </ul>
                     </li>
 
@@ -132,7 +132,7 @@
                 </div>
 
                 <div class="c-hero-about__media" aria-hidden="true">
-                    <img src="../assets/hero-Cn4lmx2D.svg" alt="" width="480" height="480" loading="eager" />
+                    <img src="/corvelloni-final/assets/hero-Cn4lmx2D.svg" alt="" width="480" height="480" loading="eager" />
                 </div>
             </div>
         </section>
@@ -406,7 +406,7 @@
                 </ul>
 
                 <p class="p-about__values-link">
-                    <a class="c-button c-button--link" href="/politica-de-privacidade/">
+                    <a class="c-button c-button--link" href="/corvelloni-final/assets/politica-de-privacidade/">
                         <span class="c-button__label">Leia nossa Política de Privacidade</span>
                     </a>
                 </p>
@@ -557,10 +557,10 @@
                 <div class="c-footer__column">
                     <h3 class="c-footer__title">Links Úteis</h3>
                     <ul class="c-footer__links">
-                        <li><a href="/duvidas/">Dúvidas Frequentes</a></li>
-                        <li><a href="/politica-de-privacidade/">Política de Privacidade</a></li>
-                        <li><a href="/simples-nacional/">Simples Nacional</a></li>
-                        <li><a href="/sobre/">Sobre Nós</a></li>
+                        <li><a href="/corvelloni-final/assets/duvidas/">Dúvidas Frequentes</a></li>
+                        <li><a href="/corvelloni-final/assets/politica-de-privacidade/">Política de Privacidade</a></li>
+                        <li><a href="/corvelloni-final/assets/simples-nacional/">Simples Nacional</a></li>
+                        <li><a href="/corvelloni-final/assets/sobre/">Sobre Nós</a></li>
                     </ul>
                 </div>
 
@@ -605,7 +605,7 @@
         "name": "Corvelloni Contabilidade",
         "description": "Contabilidade consultiva e digital para MEI, Simples Nacional e empresas de serviços. Planejamento tributário e BPO financeiro em Adamantina-SP.",
         "url": "https://www.corvelloni.com.br/sobre/",
-        "logo": "https://www.corvelloni.com.br/assets/img/svg/logo.svg",
+        "logo": "https://www.corvelloni.com.br/corvelloni-final/assets/img/svg/logo.svg",
         "telephone": "+55-18-99704-8513",
         "email": "corvelloni.contabilidade@gmail.com",
         "address": {
