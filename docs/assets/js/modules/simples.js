@@ -243,7 +243,7 @@ async function tryLoadData(root) {
     }
 
     // Tenta o caminho padrão (silenciosamente)
-    const defaultData = await loadData('/assets/data/simples-tabelas.json', true);
+    const defaultData = await loadData('http://corvelloni-final/data/simples-tabelas.json', true);
     if (defaultData) return defaultData;
 
     // Se falhou, usa os dados inline
