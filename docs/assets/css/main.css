@@ -1,5 +1,5 @@
 /* tokens */
-@import url("/corvelloni-final/assets/css/repo/_settings.css") layer(tokens);
+@import url("/corvelloni-final/assets/css/tokens/_settings.css") layer(tokens);
 
 /* base */
 @import url("/corvelloni-final/assets/css/repo/_generic2.css") layer(base);
