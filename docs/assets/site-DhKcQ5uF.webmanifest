@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "./",
   "name": "Corvelloni Contabilidade",
   "short_name": "Corvelloni",
@@ -20,12 +20,13 @@
     { "src": "assets/icons/android-chrome-maskable-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
   "shortcuts": [
-    { "name": "Dúvidas", "short_name": "Dúvidas", "url": "./duvidas/", "description": "Central de perguntas frequentes." },
-    { "name": "Salário Líquido", "short_name": "Salário", "url": "./calc/salario-liquido/", "description": "Calculadora de salário líquido." },
-    { "name": "CLT vs PJ", "short_name": "CLT vs PJ", "url": "./calc/clt-vs-pj/", "description": "Comparador de regime de contratação." }
+    { "name": "DÃºvidas", "short_name": "DÃºvidas", "url": "./duvidas/", "description": "Central de perguntas frequentes." },
+    { "name": "SalÃ¡rio LÃ­quido", "short_name": "SalÃ¡rio", "url": "./calc/salario-liquido/", "description": "Calculadora de salÃ¡rio lÃ­quido." },
+    { "name": "CLT vs PJ", "short_name": "CLT vs PJ", "url": "./calc/clt-vs-pj/", "description": "Comparador de regime de contrataÃ§Ã£o." }
   ],
   "categories": ["business", "finance", "productivity"],
   "protocol_handlers": [
     { "protocol": "web+contabil", "url": "./?q=%s" }
   ]
 }
+
