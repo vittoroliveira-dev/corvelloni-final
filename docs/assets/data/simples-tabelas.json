@@ -1,0 +1,214 @@
+{
+  "anexos": [
+    {
+      "id": "anexo-i",
+      "titulo": "Anexo I — Comércio",
+      "faixas": [
+        {
+          "faixa": 1,
+          "rbt12": "Até R$ 180.000,00",
+          "aliquota": 4.0,
+          "pd": 0
+        },
+        {
+          "faixa": 2,
+          "rbt12": "De R$ 180.000,01 a R$ 360.000,00",
+          "aliquota": 7.3,
+          "pd": 5940
+        },
+        {
+          "faixa": 3,
+          "rbt12": "De R$ 360.000,01 a R$ 720.000,00",
+          "aliquota": 9.5,
+          "pd": 13860
+        },
+        {
+          "faixa": 4,
+          "rbt12": "De R$ 720.000,01 a R$ 1.800.000,00",
+          "aliquota": 10.7,
+          "pd": 22500
+        },
+        {
+          "faixa": 5,
+          "rbt12": "De R$ 1.800.000,01 a R$ 3.600.000,00",
+          "aliquota": 14.3,
+          "pd": 87300
+        },
+        {
+          "faixa": 6,
+          "rbt12": "De R$ 3.600.000,01 a R$ 4.800.000,00",
+          "aliquota": 19.0,
+          "pd": 378000
+        }
+      ]
+    },
+    {
+      "id": "anexo-ii",
+      "titulo": "Anexo II — Indústria",
+      "faixas": [
+        {
+          "faixa": 1,
+          "rbt12": "Até R$ 180.000,00",
+          "aliquota": 4.5,
+          "pd": 0
+        },
+        {
+          "faixa": 2,
+          "rbt12": "De R$ 180.000,01 a R$ 360.000,00",
+          "aliquota": 7.8,
+          "pd": 5940
+        },
+        {
+          "faixa": 3,
+          "rbt12": "De R$ 360.000,01 a R$ 720.000,00",
+          "aliquota": 10.0,
+          "pd": 13860
+        },
+        {
+          "faixa": 4,
+          "rbt12": "De R$ 720.000,01 a R$ 1.800.000,00",
+          "aliquota": 11.2,
+          "pd": 22500
+        },
+        {
+          "faixa": 5,
+          "rbt12": "De R$ 1.800.000,01 a R$ 3.600.000,00",
+          "aliquota": 14.7,
+          "pd": 85500
+        },
+        {
+          "faixa": 6,
+          "rbt12": "De R$ 3.600.000,01 a R$ 4.800.000,00",
+          "aliquota": 30.0,
+          "pd": 720000
+        }
+      ]
+    },
+    {
+      "id": "anexo-iii",
+      "titulo": "Anexo III — Serviços",
+      "faixas": [
+        {
+          "faixa": 1,
+          "rbt12": "Até R$ 180.000,00",
+          "aliquota": 6.0,
+          "pd": 0
+        },
+        {
+          "faixa": 2,
+          "rbt12": "De R$ 180.000,01 a R$ 360.000,00",
+          "aliquota": 11.2,
+          "pd": 9360
+        },
+        {
+          "faixa": 3,
+          "rbt12": "De R$ 360.000,01 a R$ 720.000,00",
+          "aliquota": 13.5,
+          "pd": 17640
+        },
+        {
+          "faixa": 4,
+          "rbt12": "De R$ 720.000,01 a R$ 1.800.000,00",
+          "aliquota": 16.0,
+          "pd": 35640
+        },
+        {
+          "faixa": 5,
+          "rbt12": "De R$ 1.800.000,01 a R$ 3.600.000,00",
+          "aliquota": 21.0,
+          "pd": 125640
+        },
+        {
+          "faixa": 6,
+          "rbt12": "De R$ 3.600.000,01 a R$ 4.800.000,00",
+          "aliquota": 33.0,
+          "pd": 648000
+        }
+      ]
+    },
+    {
+      "id": "anexo-iv",
+      "titulo": "Anexo IV — Serviços com CPP fora do DAS",
+      "faixas": [
+        {
+          "faixa": 1,
+          "rbt12": "Até R$ 180.000,00",
+          "aliquota": 4.5,
+          "pd": 0
+        },
+        {
+          "faixa": 2,
+          "rbt12": "De R$ 180.000,01 a R$ 360.000,00",
+          "aliquota": 9.0,
+          "pd": 8100
+        },
+        {
+          "faixa": 3,
+          "rbt12": "De R$ 360.000,01 a R$ 720.000,00",
+          "aliquota": 10.2,
+          "pd": 12420
+        },
+        {
+          "faixa": 4,
+          "rbt12": "De R$ 720.000,01 a R$ 1.800.000,00",
+          "aliquota": 14.0,
+          "pd": 39780
+        },
+        {
+          "faixa": 5,
+          "rbt12": "De R$ 1.800.000,01 a R$ 3.600.000,00",
+          "aliquota": 22.0,
+          "pd": 183780
+        },
+        {
+          "faixa": 6,
+          "rbt12": "De R$ 3.600.000,01 a R$ 4.800.000,00",
+          "aliquota": 33.0,
+          "pd": 828000
+        }
+      ]
+    },
+    {
+      "id": "anexo-v",
+      "titulo": "Anexo V — Serviços com Fator R",
+      "faixas": [
+        {
+          "faixa": 1,
+          "rbt12": "Até R$ 180.000,00",
+          "aliquota": 15.5,
+          "pd": 0
+        },
+        {
+          "faixa": 2,
+          "rbt12": "De R$ 180.000,01 a R$ 360.000,00",
+          "aliquota": 18.0,
+          "pd": 4500
+        },
+        {
+          "faixa": 3,
+          "rbt12": "De R$ 360.000,01 a R$ 720.000,00",
+          "aliquota": 19.5,
+          "pd": 9900
+        },
+        {
+          "faixa": 4,
+          "rbt12": "De R$ 720.000,01 a R$ 1.800.000,00",
+          "aliquota": 20.5,
+          "pd": 17100
+        },
+        {
+          "faixa": 5,
+          "rbt12": "De R$ 1.800.000,01 a R$ 3.600.000,00",
+          "aliquota": 23.0,
+          "pd": 62100
+        },
+        {
+          "faixa": 6,
+          "rbt12": "De R$ 3.600.000,01 a R$ 4.800.000,00",
+          "aliquota": 30.5,
+          "pd": 540000
+        }
+      ]
+    }
+  ]
+}
