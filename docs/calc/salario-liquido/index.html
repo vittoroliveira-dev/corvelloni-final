@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Calculadora de Salário CLT 2025 | Corvelloni Contabilidade</title>
+    <meta name="description"
+        content="Calcule o salário líquido CLT 2025 com IRRF atualizado, INSS, VT, horas extras e mais." />
+    <link rel="canonical" href="/corvelloni-final/calc/salario-liquido/" />
+
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Calculadora de Salário CLT 2025 | Corvelloni Contabilidade" />
+    <meta property="og:description"
+        content="Calcule o salário líquido CLT 2025 com IRRF atualizado, INSS, VT, horas extras e mais." />
+    <meta property="og:url" content="/corvelloni-final/calc/salario-liquido" />
+    <meta property="og:site_name" content="Corvelloni Contabilidade" />
+    <meta property="og:image" content="/corvelloni-final/assets/img/og/salario-clt-2025.jpg" />
+    <meta property="og:image:alt" content="Dashboard de cálculo de salário líquido CLT 2025" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#111827" />
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- assets relativos (funcionam em dev e no GH Pages) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/corvelloni-final/assets/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/corvelloni-final/assets/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/corvelloni-final/assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/corvelloni-final/site.webmanifest" />
+    <link rel="preload" as="image" href="/corvelloni-final/assets/img/svg/hero.svg">
+  <script type="module" crossorigin src="/corvelloni-final/assets/salarioLiquido-4Sojp30-.js"></script>
+  <link rel="modulepreload" crossorigin href="/corvelloni-final/assets/consent-Baoe4G0u.js">
+  <link rel="stylesheet" crossorigin href="/corvelloni-final/assets/salarioLiquido-DMDJrSK7.css">
+</head>
+
+<body>
+    <a class="u-visually-hidden u-skiplink" href="#conteudo-principal">Pular para o conteúdo</a>
+
+    <header class="c-header">
+        <div class="o-container c-header__inner">
+            <a class="c-header__logo" href="/corvelloni-final/">
+                <img src="/corvelloni-final/assets/img/svg/logo.svg" alt="Corvelloni Contabilidade" width="180" height="80"
+                    loading="eager" fetchpriority="high">
+            </a>
+
+            <button class="c-header__toggle" type="button" aria-expanded="false" aria-controls="menu-principal"
+                data-nav-toggle>
+                <span class="u-visually-hidden">Abrir menu</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <nav id="menu-principal" class="c-nav" aria-label="Menu principal">
+                <ul class="c-nav__list">
+                    <li><a class="c-nav__link" href="/corvelloni-final/">Início</a></li>
+                    <li><a class="c-nav__link" href="/corvelloni-final/sobre/">Sobre</a></li>
+                    <li><a class="c-nav__link" href="/corvelloni-final/servicos/">Serviços</a></li>
+                    <li><a class="c-nav__link" href="/corvelloni-final/simples-nacional/">Simples Nacional</a></li>
+                    <li><a class="c-nav__link" href="/corvelloni-final/duvidas/">Dúvidas</a></li>
+
+                    <li class="c-nav__item--has-dropdown">
+                        <button id="btn-calculadoras" class="c-nav__link" type="button" aria-haspopup="true"
+                            aria-expanded="false" aria-controls="submenu-calculadoras">
+                            Calculadoras
+                            <svg class="c-nav__arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <ul id="submenu-calculadoras" class="c-nav__submenu">
+                            <li><a class="c-nav__submenu-link" href="/corvelloni-final/calc/custo-abrir-cnpj/">Custo para Abrir
+                                    CNPJ</a></li>
+                            <li><a class="c-nav__submenu-link" href="/corvelloni-final/calc/salario-liquido/">Salário
+                                    Líquido</a>
+                            </li>
+                            <li><a class="c-nav__submenu-link" href="/corvelloni-final/calc/clt-vs-pj/">CLT vs PJ</a></li>
+                            <li><a class="c-nav__submenu-link" href="/corvelloni-final/calc/fator-r/">Fator R</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a class="c-nav__link c-nav__link--cta" href="#contato">Contato</a></li>
+                    <li class="c-nav__wa-item">
+                        <a class="c-nav__wa-btn"
+                            href="https://wa.me/5518997048513?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20proposta"
+                            target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+                            <svg class="c-nav__wa-ico" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M20.52 3.48A11.93 11.93 0 0 0 12.07 0C5.5 0 .18 5.32.18 11.88c0 2.09.56 4.09 1.62 5.86L0 24l6.41-1.73a11.86 11.86 0 0 0 5.66 1.44h.01c6.56 0 11.88-5.32 11.88-11.88 0-3.18-1.24-6.17-3.42-8.35ZM12.07 21.6a9.7 9.7 0 0 1-4.94-1.35l-.35-.21-3.8 1.03 1.02-3.7-.23-.38a9.69 9.69 0 1 1 8.3 4.61Zm5.58-7.25c-.3-.15-1.79-.88-2.07-.98-.28-.1-.49-.15-.7.15-.21.3-.8.98-.98 1.18-.18.2-.36.23-.66.08-.3-.15-1.27-.47-2.42-1.5-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.36.43-.54.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.07-.15-.7-1.68-.96-2.3-.25-.6-.5-.52-.7-.53h-.6c-.2 0-.53.07-.81.38-.28.3-1.07 1.05-1.07 2.56 0 1.5 1.1 2.95 1.25 3.16.15.2 2.15 3.28 5.2 4.6.73.32 1.3.5 1.75.64.74.24 1.42.2 1.95.13.6-.09 1.79-.73 2.04-1.44.25-.71.25-1.3.17-1.43-.07-.13-.27-.2-.57-.35Z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo-principal" class="o-container u-flow" tabindex="-1">
+        <div class="corvelloni-salary-header" style="text-align:center;margin:2rem 0 1rem;">
+            <span class="corvelloni-badge">Ferramenta Gratuita</span>
+            <h1>Calculadora de Salário CLT 2025</h1>
+            <p>Calcule seu salário líquido com as novas alíquotas do IRRF e todas as deduções aplicáveis</p>
+        </div>
+
+        <div class="corvelloni-salary-container">
+            <!-- Resultado principal -->
+            <div class="corvelloni-result-card">
+                <div class="corvelloni-result-content">
+                    <div>
+                        <div class="corvelloni-result-label">Salário Líquido Mensal</div>
+                        <span class="corvelloni-result-value" data-result-value>R$ 0,00</span>
+                    </div>
+                    <div class="corvelloni-result-icon">💰</div>
+                </div>
+            </div>
+
+            <!-- Tabs -->
+            <div class="corvelloni-tabs">
+                <button class="corvelloni-tab active" data-tab="basico">📊 Dados Básicos</button>
+                <button class="corvelloni-tab" data-tab="descontos">💸 Descontos</button>
+                <button class="corvelloni-tab" data-tab="extras">➕ Extras</button>
+                <button class="corvelloni-tab" data-tab="faltas">⏰ Faltas</button>
+            </div>
+
+            <!-- Formulário esperado pelo salario.js -->
+            <form data-calc="salario" class="corvelloni-form-content">
+                <!-- Básico -->
+                <div class="corvelloni-panel active" data-panel="basico">
+                    <div class="corvelloni-fields-grid">
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Salário Bruto</label>
+                            <input type="text" name="bruto" placeholder="0,00" data-money="true" required>
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Competência</label>
+                            <input type="month" name="competencia" value="2025-05">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Regime de Trabalho</label>
+                            <select name="regime">
+                                <option value="CLT">CLT Padrão (220h)</option>
+                                <option value="CLT_BANCARIO">CLT Bancário (180h)</option>
+                                <option value="CLT_JORNALISTA">CLT Jornalista (150h)</option>
+                            </select>
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Dependentes IRRF</label>
+                            <input type="number" name="dependentes" min="0" max="20" value="0">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Descontos -->
+                <div class="corvelloni-panel" data-panel="descontos">
+                    <div class="corvelloni-fields-grid">
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Vale Transporte (%)</label>
+                            <input type="number" name="vtPercent" min="0" max="6" step="0.1" value="0">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Pensão Alimentícia</label>
+                            <input type="text" name="pensaoAlimenticia" placeholder="0,00" data-money="true">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">PGBL/VGBL</label>
+                            <input type="text" name="pgbl" placeholder="0,00" data-money="true">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Outros Descontos</label>
+                            <input type="text" name="outrosDescontos" placeholder="0,00" data-money="true">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extras -->
+                <div class="corvelloni-panel" data-panel="extras">
+                    <div class="corvelloni-fields-grid">
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Proventos Variáveis</label>
+                            <input type="text" name="proventosVariaveis" placeholder="0,00" data-money="true">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Filhos (Salário Família)</label>
+                            <input type="number" name="filhosSF" min="0" max="20" value="0">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Horas Extras 50%</label>
+                            <input type="number" name="horas50" min="0" step="0.5" value="0">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Horas Extras 100%</label>
+                            <input type="number" name="horas100" min="0" step="0.5" value="0">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Horas Domingo/Feriado</label>
+                            <input type="number" name="horasDomingo" min="0" step="0.5" value="0">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Faltas -->
+                <div class="corvelloni-panel" data-panel="faltas">
+                    <div class="corvelloni-fields-grid">
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Dias de Falta</label>
+                            <input type="number" name="faltasDias" min="0" max="30" value="0">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Horas de Atraso</label>
+                            <input type="number" name="atrasosHoras" min="0" step="0.5" value="0">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Dias Úteis</label>
+                            <input type="number" name="diasUteis" min="0" max="30" value="26">
+                        </div>
+                        <div class="corvelloni-field">
+                            <label class="corvelloni-field-label">Dias DSR</label>
+                            <input type="number" name="diasDescanso" min="0" max="10" value="4">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detalhes e Erros -->
+                <div class="corvelloni-details" data-calc-details></div>
+                <div class="corvelloni-errors" data-calc-errors></div>
+
+                <!-- Ações -->
+                <div class="corvelloni-actions">
+                    <button type="button" class="corvelloni-btn corvelloni-btn-primary" data-action="comparar">
+                        📊 Análise Completa CLT
+                    </button>
+                    <button type="button" class="corvelloni-btn" data-action="exportar">
+                        Exportar CSV
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- modal -->
+        <div class="corvelloni-modal" data-modal="comparison"></div>
+    </main>
+
+    <footer class="c-footer" id="contato">
+        <div class="o-container">
+            <div class="c-footer__main">
+                <div class="c-footer__column">
+                    <h3 class="c-footer__title">Corvelloni Contabilidade</h3>
+                    <address class="c-footer__address">
+                        Av. Dep. Cunha Bueno, 1336 - Vila Industrial<br>
+                        Adamantina - SP, 17800-000
+                    </address>
+                </div>
+
+                <div class="c-footer__column">
+                    <h3 class="c-footer__title">Links Úteis</h3>
+                    <ul class="c-footer__links">
+                        <li><a href="/corvelloni-final/">Início</a></li>
+                        <li><a href="/corvelloni-final/sobre/">Sobre</a></li>
+                        <li><a href="/corvelloni-final/servicos/">Serviços</a></li>
+                        <li><a href="/corvelloni-final/simples-nacional">Simples Nacional</a></li>
+                        <li><a href="/corvelloni-final/duvidas/">Dúvidas Frequentes</a></li>
+                        <li><a href="/corvelloni-final/politica-de-privacidade/">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <div class="c-footer__column">
+                    <h3 class="c-footer__title">Contato</h3>
+                    <ul class="c-footer__contact-list">
+                        <li class="c-footer__contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                            <a href="tel:+5518997048513">(+55) 18 99704-8513</a>
+                        </li>
+                        <li class="c-footer__contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="mailto:corvelloni.contabilidade@gmail.com">corvelloni.contabilidade@gmail.com</a>
+                        </li>
+                    </ul>
+                    <p class="c-footer__hours">Seg. a Sex. das 9h às 18h.</p>
+                </div>
+            </div>
+
+            <div class="c-footer__bottom">
+                <div class="c-footer__legal">
+                    <span><strong>CNPJ:</strong> 46.627.589/0001-53</span>
+                    <span><strong>Responsável:</strong> Leonardo Corvelloni Hernandes • <strong>CRC:</strong>
+                        SP-1SP336294/O-8</span>
+                </div>
+                <div class="c-footer__copy">
+                    <span>© <span id="ano-atual"></span> Corvelloni Contabilidade. Todos os direitos reservados.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Entrada específica desta página (carrega main2.css e salario.js) -->
+</body>
+
+</html>
