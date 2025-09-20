@@ -1,0 +1,6 @@
+-User-agent: *
+-Disallow: /docs/
+User-agent: *
+Allow: /
+
+Sitemap: https://www.corvelloni.com.br/sitemap.xml
